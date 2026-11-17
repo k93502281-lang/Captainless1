@@ -1,159 +1,79 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="th">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>CAPTAINLESS | Ocean World</title>
-
-<style>
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  min-height: 100vh;
-  font-family: Arial, sans-serif;
-  color: #eafaff;
-  background:
-    radial-gradient(ellipse at 20% 10%, #145b85 0%, transparent 45%),
-    radial-gradient(ellipse at 90% 80%, #07516d 0%, transparent 45%),
-    linear-gradient(145deg, #061629, #092b49, #031321);
-}
-
-.container {
-  width: min(90%, 520px);
-  margin: auto;
-  padding: 65px 0 35px;
-  text-align: center;
-}
-
-.tag {
-  color: #78eaff;
-  letter-spacing: 5px;
-  font-size: 11px;
-}
-
-.avatar {
-  width: 112px;
-  height: 112px;
-  margin: 25px auto 18px;
-  border-radius: 50%;
-  border: 3px solid #69dafa;
-  background: linear-gradient(135deg, #41c9e8, #124a79);
-  display: grid;
-  place-items: center;
-  font-size: 42px;
-  box-shadow: 0 0 35px #32bce766;
-}
-
-h1 {
-  margin: 10px 0;
-  font-size: 34px;
-  letter-spacing: 4px;
-}
-
-.subtitle {
-  color: #a5d9ec;
-  font-size: 14px;
-  line-height: 1.8;
-}
-
-.line {
-  width: 55px;
-  height: 2px;
-  background: #64d9f5;
-  margin: 25px auto;
-}
-
-.section {
-  text-align: left;
-  font-size: 12px;
-  color: #76dff7;
-  letter-spacing: 3px;
-  margin: 30px 5px 12px;
-}
-
-.link {
-  display: block;
-  text-decoration: none;
-  color: #eafaff;
-  padding: 17px;
-  margin: 12px 0;
-  border: 1px solid #70d9f566;
-  border-radius: 14px;
-  background: #ffffff0c;
-  backdrop-filter: blur(10px);
-  transition: .2s;
-}
-
-.link:hover {
-  background: #1c7291;
-  transform: translateY(-2px);
-}
-
-.about {
-  padding: 20px;
-  border-radius: 15px;
-  background: #ffffff0c;
-  color: #b9dce9;
-  font-size: 14px;
-  line-height: 1.9;
-}
-
-footer {
-  margin-top: 45px;
-  color: #76a9bd;
-  font-size: 11px;
-  letter-spacing: 2px;
-}
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4c5df">
+  <meta name="description" content="Aqua Chibi — personal space, social links, support and community.">
+  <title>Aqua Chibi — My Little Space</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+  <div class="sky-glow glow-one"></div><div class="sky-glow glow-two"></div>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="Aqua Chibi home"><span class="brand-mark">✦</span> AQUA<span>CHIBI</span></a>
+    <button class="menu-toggle" aria-label="เปิดเมนู" aria-expanded="false">☰</button>
+    <nav class="nav-links">
+      <a href="#about">ABOUT</a><a href="#follow">FOLLOW</a><a href="#donate">DONATE</a><a href="#community">OPENCHAT</a>
+    </nav>
+  </header>
 
-<main class="container">
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="sparkle">✧</span> WELCOME TO MY LITTLE WORLD <span class="sparkle">✧</span></div>
+        <h1>HELLO,<br><span>MY FRIEND!</span></h1>
+        <p class="hero-sub">ยินดีต้อนรับสู่พื้นที่เล็ก ๆ ที่เต็มไปด้วยความสุข<br>ฝากตัวด้วยนะ มาทำความรู้จักกัน! 🩵</p>
+        <a class="primary-btn" href="#about">LET'S EXPLORE <span>↓</span></a>
+        <div class="tiny-note">♡ stay soft, stay lovely ♡</div>
+      </div>
+      <div class="hero-art">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <span class="float-star star-a">✦</span><span class="float-star star-b">✧</span><span class="float-star star-c">★</span>
+        <div class="hero-image-frame"><img src="assets/aqua-hi.gif" alt="ภาพตัวละครจิบิผมสีฟ้ากำลังโบกมือทักทาย"></div>
+        <div class="hello-pill">hi there! <span>♡</span></div>
+      </div>
+      <a class="scroll-cue" href="#about">SCROLL TO DISCOVER <span>⌄</span></a>
+    </section>
 
-  <div class="tag">WELCOME TO MY WORLD</div>
+    <section class="about section-wrap" id="about">
+      <div class="section-heading"><span class="section-kicker">01 / GET TO KNOW ME</span><h2>ABOUT <em>ME</em></h2><p>มาทำความรู้จักเจ้าของบ้านหลังนี้กัน!</p></div>
+      <div class="about-card">
+        <div class="avatar-wrap"><div class="avatar-halo"></div><img src="assets/aqua-avatar.jpeg" alt="ภาพอวาตาร์ตัวละครผมสีฟ้า" loading="lazy"><span class="avatar-caption">your aqua buddy ♡</span></div>
+        <div class="about-text"><div class="mini-label">✦ A LITTLE INTRODUCTION ✦</div><h3>Nice to meet you!</h3><p>สวัสดีค้าบบบ ยินดีที่ได้รู้จักทุกคนนะ 🩵<br>ตรงนี้เป็นพื้นที่เล็ก ๆ สำหรับแชร์เรื่องราว ผลงาน และสิ่งที่ชอบ ฝากติดตามและแวะมาทักทายกันได้เสมอเลย</p>
+          <div class="info-chips"><span>🩵 Friendly</span><span>☁️ Chill vibes</span><span>✨ Cute things</span></div>
+          <div class="signature">with love, <b>Aqua</b> ♡</div>
+        </div>
+      </div>
+    </section>
 
-  <div class="avatar">🌊</div>
+    <section class="follow section-wrap" id="follow">
+      <div class="section-heading"><span class="section-kicker">02 / LET'S CONNECT</span><h2>FOLLOW <em>ME</em></h2><p>ติดตามช่องทางต่าง ๆ ได้ที่นี่เลย</p></div>
+      <div class="social-grid">
+        <a class="social-card" href="#" data-placeholder="Instagram"><span class="social-icon insta">◎</span><span><b>Instagram</b><small>รูปภาพและเรื่องราวของเรา</small></span><i>↗</i></a>
+        <a class="social-card" href="#" data-placeholder="TikTok"><span class="social-icon tiktok">♪</span><span><b>TikTok</b><small>คลิปสนุก ๆ และโมเมนต์น่ารัก</small></span><i>↗</i></a>
+        <a class="social-card" href="#" data-placeholder="YouTube"><span class="social-icon youtube">▶</span><span><b>YouTube</b><small>วิดีโอและคอนเทนต์ของเรา</small></span><i>↗</i></a>
+        <a class="social-card" href="#" data-placeholder="Facebook"><span class="social-icon facebook">f</span><span><b>Facebook</b><small>พูดคุยและอัปเดตข่าวสาร</small></span><i>↗</i></a>
+      </div>
+      <p class="edit-hint">* ปุ่มโซเชียลเป็นตัวอย่าง — ใส่ลิงก์จริงของคุณในไฟล์ <code>script.js</code></p>
+    </section>
 
-  <h1>CAPTAINLESS</h1>
+    <section class="donate section-wrap" id="donate">
+      <div class="section-heading"><span class="section-kicker">03 / SEND SOME LOVE</span><h2>SUPPORT <em>ME</em></h2><p>ขอบคุณทุกกำลังใจที่ส่งมาให้เสมอนะ</p></div>
+      <div class="support-card"><div class="support-copy"><div class="heart-bubble">♡</div><h3>Thank you for your kindness!</h3><p>หากอยากสนับสนุนหรือส่งกำลังใจ สามารถสแกน QR Code ตรงนี้ได้เลยนะ ขอบคุณมาก ๆ เลยค้าบ</p><span class="thank-you">every little support means a lot ✧</span></div><div class="qr-placeholder"><div class="qr-inner"><span>♡</span><b>YOUR QR</b><small>ใส่ QR Code ที่นี่</small></div><small class="qr-caption">DONATION QR CODE</small></div></div>
+    </section>
 
-  <div class="subtitle">
-    CREATOR • STREAMER • GAMER<br>
-    Welcome aboard my ocean world.
-  </div>
+    <section class="community section-wrap" id="community">
+      <div class="section-heading"><span class="section-kicker">04 / JOIN OUR LITTLE CLUB</span><h2>OPENCHAT <em>LINE</em></h2><p>เข้ามาพูดคุยและเป็นเพื่อนกันนะ!</p></div>
+      <div class="community-card"><div class="community-art"><img src="assets/aqua-hi.gif" alt="ตัวละครจิบิผมสีฟ้า" loading="lazy"><span class="chat-bubble">มาเล่นกัน! ♡</span></div><div class="community-copy"><h3>Let's be friends!</h3><p>สแกน QR Code หรือกดปุ่มด้านล่างเพื่อเข้าร่วม OpenChat ของเรา</p><div class="line-qr">LINE<br><small>วาง QR Code กลุ่มที่นี่</small></div><a class="line-btn" href="#" data-placeholder="LINE OpenChat">JOIN OPENCHAT <span>↗</span></a></div></div>
+    </section>
+  </main>
 
-  <div class="line"></div>
-
-  <div class="section">ABOUT ME</div>
-
-  <div class="about">
-    ยินดีต้อนรับสู่พื้นที่เล็ก ๆ ของฉัน<br>
-    ขอบคุณทุกคนที่เข้ามาเป็นส่วนหนึ่ง<br>
-    ของการเดินทางครั้งนี้ 🩵
-  </div>
-
-  <div class="section">FOLLOW ME</div>
-
-  <a class="link" href="#">🎮 Facebook</a>
-  <a class="link" href="#">🎵 TikTok</a>
-  <a class="link" href="#">📸 Instagram</a>
-  <a class="link" href="#">💬 Discord</a>
-
-  <div class="section">CONTACT & SUPPORT</div>
-
-  <a class="link" href="#">✉️ DM FOR WORK</a>
-  <a class="link" href="#">💙 DONATE / SUPPORT</a>
-
-  <footer>
-    © 2026 CAPTAINLESS<br><br>
-    MADE WITH LOVE IN THE OCEAN
-  </footer>
-
-</main>
-
+  <footer class="footer"><div class="footer-stars">✦　✧　♡　✧　✦</div><a class="footer-brand" href="#home">AQUA<span>CHIBI</span></a><p>made with love & a little bit of magic</p><small>© <span id="year"></span> AQUA CHIBI. ALL RIGHTS RESERVED.</small></footer>
+  <button class="to-top" aria-label="กลับไปด้านบน">↑</button>
+  <script src="script.js"></script>
 </body>
 </html>
